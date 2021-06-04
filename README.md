@@ -1,6 +1,7 @@
-# Pyglot<br>
+<h1>Pyglot<h1><br>
 
-<h2>References<h2><br>
+**REFERENCES**
+
 Python Virtual Environment (based on https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)<br>
   1. (In CLI or code editor e.g. Visual Studio Code), go to (i.e. cd for Windows) project directory, run "py -m venv env"
   2. In the project directory, run ".\env\Scripts\activate"
