@@ -20,7 +20,7 @@
   - REGISTRY_NAME=string...<REGISTRY NAME> is name of your choice (usually project name)
   - set DOCKER_IMG=gcr.io/%PROJECT_ID%/%REGISTRY_NAME%
 and confirm that image successfully created with STATUS "SUCCESS"<br>
-4. *Deploy to Cloud Run*: In project directory, run "gcloud run deploy %PROJECT_NAME% --image gcr.io/<PROJECT-ID>/<REGISTRY NAME> --platform managed --region %REGION% --allow-unauthenticated", where variables
+4. *Deploy to Cloud Run*: In project directory, run "gcloud run deploy %PROJECT_NAME% --image %DOCKER_IMG% --platform managed --region %REGION% --allow-unauthenticated", where variables
   - PROJECT_NAME=string
   - REGION="string"...usually "us-central1"
 
