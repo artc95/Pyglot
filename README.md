@@ -12,6 +12,10 @@
 - set VARIABLE=string
 - echo %VARIABLE%
 
+**PyWebIO, Flask**
+- PyWebIO Documentation and Integration with Flask https://pywebio.readthedocs.io/en/latest/guide.html#integration-with-web-framework
+- Flask quickstart guide https://flask.palletsprojects.com/en/1.1.x/quickstart/
+
 **Containerize (a.k.a. Create Docker image), Upload image to Container Registry, Deploy to Cloud Run** (https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3#4, https://towardsdatascience.com/how-to-deploy-docker-containers-to-the-cloud-b4d89b2c6c31 app.py deploy failed but consider Dockerfile line "RUN pip install -r requirements.txt" which iterates through requirements.txt to install modules)<br>
 1. In project directory, create app.py and Dockerfile (and requirements.txt if needed)
 2. In project directory, run "gcloud auth login" and log into Google Cloud Platform (GCP) using web browswer
