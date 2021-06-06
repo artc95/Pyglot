@@ -1,5 +1,7 @@
 <h1>Pyglot</h1><br>
-Interactive Python web application using Flask and pywebio. Tests users (who are learning English) on when to use the definite article "the".
+Interactive Python web application using Flask and pywebio. Tests users (who are learning English) on when to use the definite article "the".<br>
+Input: Any English text.<br>
+Output: Input text with "the"s replaced by blanks, and corresponding questions on whether or not to use "the".<br>
 
 ***REFERENCES***
 
