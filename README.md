@@ -26,6 +26,7 @@
 and confirm that image successfully created with STATUS "SUCCESS"<br>
 4. *Deploy to Cloud Run*: In project directory, run "gcloud run deploy %PROJECT_NAME% --image %DOCKER_IMG% --platform managed --region %REGION% --allow-unauthenticated", variables are:
   - REGION="string"...usually "us-central1"<br>
+
 *Variables Setup, for personal use:* set PROJECT_ID=hello-315713 \ set PROJECT_NAME=pyglot \ set DOCKER_IMG=gcr.io/%PROJECT_ID%/%PROJECT_NAME% \ set REGION="us-central1"
 
 ***PROBLEM:***<br>
