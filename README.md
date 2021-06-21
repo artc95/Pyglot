@@ -15,7 +15,9 @@ Output: Produces input text but with "the"s replaced by blanks, and correspondin
 **GCP in Python Virtual Environment**
 1. Ensure virtual environment is activated with (env) at the start of command line
 2. Install necessary GCP modules (e.g. run "pip install --upgrade google-cloud-language")
-3. Before running .py scripts, ensure virtual environment's interpreter is used (in Visual Studio Code, interpreter option is at the bottom)
+3. Before running .py scripts:
+ - Use virtual environment's interpreter (in Visual Studio Code, interpreter option is at the bottom)
+ - Set Google Application Credentials e.g. run "set GOOGLE_APPLICATION_CREDENTIALS=C:\Users\artc\Desktop\xxx.json" (instructions on creating Service Account, getting account key as .json file and setting Credentials as .json file https://cloud.google.com/docs/authentication/getting-started)
 
 
 **Set and See Environment Variables in Windows**
