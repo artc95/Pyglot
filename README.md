@@ -15,7 +15,7 @@ Output: Produces input text but with "the"s replaced by blanks, and correspondin
 **GCP in Python Virtual Environment**
 1. Ensure virtual environment is activated with (env) at the start of command line
 2. Install necessary GCP modules (e.g. run "pip install --upgrade google-cloud-language")
-3. Before running .py scripts, ensure interpreter used is in the virtual environment, as shown:
+3. Before running .py scripts, ensure virtual environment's interpreter is used (in Visual Studio Code, interpreter option is at the bottom)
 
 
 **Set and See Environment Variables in Windows**
