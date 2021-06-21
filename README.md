@@ -12,6 +12,12 @@ Output: Produces input text but with "the"s replaced by blanks, and correspondin
   3. Install modules using pip/pip3
   4. Run "deactivate" to leave virtual environment
 
+**GCP in Python Virtual Environment**
+1. Ensure virtual environment is activated with (env) at the start of command line
+2. Install necessary GCP modules (e.g. run "pip install --upgrade google-cloud-language")
+3. Before running .py scripts, ensure interpreter used is in the virtual environment, as shown:
+
+
 **Set and See Environment Variables in Windows**
 - set VARIABLE=string
 - echo %VARIABLE%
